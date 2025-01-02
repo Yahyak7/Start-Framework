@@ -1,0 +1,15 @@
+.active{
+    border: 2px solid rgba(26, 188, 156, 0.9);
+    background-color: rgba(26, 188, 156, 0.9);;
+    border-radius: 10%;
+    padding: 5%;
+    transition: 0.5s ease-out;
+}
+.active::after{
+    transform: 0.5s;
+}
+body{
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
